@@ -1,0 +1,68 @@
+
+body {
+    text-align: center; /* optional agar tum center me chahte ho */
+}
+
+#logo img {
+    width: 150px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+h1 {
+    display: inline-block;
+    font-size: 50px;
+    font-weight: bold;
+    color: #006064;
+    text-shadow: 2px 2px 8px rgba(0, 188, 212, 0.6);
+    margin-right: 20px;
+    vertical-align: middle;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 3px 3px 0px cyan, 6px 6px 0px cyan;
+}
+#p1{
+    color:lightcoral;
+    border-top:3px solid yellow;
+     border-left: 3px solid yellow ;
+     border-right: 3px solid yellow;
+
+}
+#p2{
+    color: lawngreen;
+    border-left: 3px solid yellow ;
+         border-right: 3px solid yellow;    
+}
+#p3{
+    color: red;
+    border-left: 3px solid yellow ;
+         border-right: 3px solid yellow;
+}
+#p4{
+    color: rgb(94, 53, 229);
+    border-bottom:3px solid yellow;
+    border-left: 3px solid yellow ;
+     border-right: 3px solid yellow;
+
+}
+
+
+button {
+    color: white;
+    background-color: #00bcd4;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0,96,100,0.4);
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #006064;
+}
+

@@ -1,0 +1,28 @@
+body{
+    background-color: blanchedalmond;
+    margin: auto;
+    place-items: center;
+    gap: 50px;  
+}
+
+.box{
+    border:5px solid;
+    font-size: 100px;
+    width:250px;
+    height: 250px;
+}
+
+#box1{
+    background-color: chartreuse;
+    margin-bottom:25px;
+    margin-top: 50px;
+}
+#box2{
+    background-color: crimson;
+     margin-bottom:25px;
+    margin-top: 50px;
+}
+#box3{
+    background-color: blue;
+    position:static;
+}
