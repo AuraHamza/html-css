@@ -65,18 +65,6 @@ This project was created in three steps:
 └── assets/
     └── logo.png        # Project logo
 ```
-## How to Run
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/UniLearn-Student-Portal.git
-```
-
-2. Open `index.html` in your browser to view the homepage.
-
----
-
 ## License
 
 This project is for **educational purposes** and personal practice.
