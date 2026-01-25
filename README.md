@@ -65,16 +65,6 @@ This project was created in three steps:
 └── assets/
     └── logo.png        # Project logo
 ```
-
----
-
-## Screenshots
-
-![UniLearn Screenshot](C:/Users/Hamza/Downloads/Screenshot%202026-01-25%20053859.png)
-*Home page showing hero and features section with card layout.*
-
----
-
 ## How to Run
 
 1. Clone the repository:
