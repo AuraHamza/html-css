@@ -4,7 +4,7 @@ Perfect! I’ll integrate your **local image path** into the README and format i
 
 # UniLearn - Student Portal
 
-![UniLearn Screenshot](Student_portal)
+![UniLearn Screenshot](Student_portal.png)
 
 **UniLearn** is a simple web-based student portal built as a practice project to learn HTML and CSS. This project demonstrates creating a structured, responsive, and visually appealing interface with card-style sections.
 
