@@ -10,12 +10,14 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont,
                  'Segoe UI', Roboto, Ubuntu, Cantarell;
     background-color: #f0fff4;
+    color: white;
+    line-height: 1.6;
 }
 
 /* Header */
 header {
+    border-bottom: 2px solid rgba(255,255,255,0.2);
     background-color: #1f6f54;
-    color: white;
 }
 
 /* Logo + Title */
@@ -27,21 +29,20 @@ header {
     padding: 15px 0;
 }
 
-.heading h1 {
-    font-size: 28px;
-}
-
 /* Navbar */
 nav.navbar {
     background-color: #2f855a;
     padding: 12px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 nav.navbar ul {
     list-style: none;
     display: flex;
-    justify-content: center;   
-    gap: 60px;                
+    justify-content: center;
+    gap: 60px;
 }
 
 nav.navbar ul li a {
@@ -61,12 +62,15 @@ nav.navbar ul li a:hover {
 .hero-section {
     background-color: #2f855a;
     color: white;
-    padding: 60px 20px;
+    padding: 40px 20px;
     text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    margin: 30px 20px;
 }
 
 .hero-section h2 {
-    text-decoration: underline ;
+    text-decoration: underline;
     font-size: 32px;
     margin-bottom: 15px;
 }
@@ -77,11 +81,64 @@ nav.navbar ul li a:hover {
     margin: 0 auto;
 }
 
+/* Features Section */
+.features {
+    color: white;
+    background-color: #276749;  
+    text-align: center;
+    padding: 50px 20px;
+    border-radius: 12px;
+    margin: 30px 20px;
+}
+
+/* Features heading */
+.features h2 {
+    text-decoration: underline;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+/* Card Container */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Individual Card */
+.card {
+    background-color: #38a169;
+    padding: 20px;
+    border-radius: 12px;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card h3 {
+    font-size: 22px;
+    margin-bottom: 12px;
+    text-decoration: underline;
+}
+
+.card p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
 /* Footer */
 footer {
     background-color: #1f6f54;
     color: white;
     text-align: center;
     padding: 15px;
-    margin-top: 40px;
+    margin-top: 30px;
+    border-top: 2px solid rgba(255, 255, 255, 0.2);
 }
